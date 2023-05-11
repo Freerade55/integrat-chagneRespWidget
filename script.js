@@ -126,7 +126,7 @@ define(['jquery'], function ($) {
               console.log(arrayToSend);
 
               self.crm_post(
-                  'https://hub.integrat.pro/api/trendAgent/site/testTaskChangeResponse/index.php',
+                  'https://',
                   {
                     LeadId: arrayToSend['LeadId'],
                     RespUserId: arrayToSend['responseUser'],
@@ -152,7 +152,7 @@ define(['jquery'], function ($) {
               var Testjson = JSON.stringify(arrayToSend);
 
               self.crm_post(
-                  'https://hub.integrat.pro/api/trendAgent/site/testTaskChangeResponse/index.php',
+                  'https://',
 
                   {
                     data: arrayToSend,
